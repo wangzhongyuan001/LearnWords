@@ -1,10 +1,13 @@
 package com.learn.words;
 
+import lombok.Data;
+
 /**
  * @author wangzhongyuan
  * @version 1.0
  * @date 2021/7/16
  */
+@Data
 public class WordsUnit2 {
     /**
      * adj:人(类)的
@@ -87,7 +90,7 @@ public class WordsUnit2 {
     private String control;
     /**
      * v:控制,抑制
-     * n:起控制(或限制)作用的事务,路边；勒马绳
+     * n:起控制(或限制)作用的事物,路边；勒马绳
      * curbing competition in corporate-tax rates or labour costs 抑制企业税法和劳动力成本方面的竞争
      * curbs on business-method claims 对商业方法所有权的限制措施
      */

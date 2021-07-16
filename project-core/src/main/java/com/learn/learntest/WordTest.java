@@ -35,13 +35,16 @@ public class WordTest {
                 return;
             }
             Set<Map.Entry<WordsEnum1, Integer>> entrySet = unKnowMap.entrySet();
+            System.out.println("剩余未掌握单词量:"+entrySet.size());
             for (Map.Entry<WordsEnum1, Integer> entry : entrySet) {
-                if (entry.getValue() == 0) {
-                    unKnowMap.remove(entry.getKey());
-                }
+
                 System.out.println("请根据提示,输入对应的单词或词组:    "+entry.getKey().getMean());
                 Scanner scanner = new Scanner(System.in);
                 String word = scanner.nextLine();
+                if (entry.getValue() == 0 || "skip".equals(word)) {
+                    continue;
+                }
+
                 if (entry.getKey().getWord().equals(word)) {
                     System.out.println("回答正确!");
                     unKnowMap.put(entry.getKey(),entry.getValue()-1);
