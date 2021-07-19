@@ -30,7 +30,7 @@ public class WordTest {
 
         System.out.println("-----------复习开始----------");
         while (true) {
-            if (unKnowMap.isEmpty()) {
+            if (isAllEmpty(unKnowMap)) {
                 System.out.println("恭喜,已掌握所有单词!");
                 return;
             }
@@ -42,6 +42,7 @@ public class WordTest {
                 Scanner scanner = new Scanner(System.in);
                 String word = scanner.nextLine();
                 if (entry.getValue() == 0 || "skip".equals(word)) {
+                    unKnowMap.put(entry.getKey(),0);
                     continue;
                 }
 
@@ -54,5 +55,15 @@ public class WordTest {
             }
 
         }
+    }
+
+    private static boolean isAllEmpty(Map<WordsEnum1, Integer> unKnowMap) {
+        Set<WordsEnum1> keySet = unKnowMap.keySet();
+        for (WordsEnum1 wordsEnum1 : keySet) {
+            if (unKnowMap.get(wordsEnum1) != 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
