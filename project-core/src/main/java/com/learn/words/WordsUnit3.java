@@ -42,6 +42,7 @@ public class WordsUnit3 {
     /**
      * adj:(描述等)形象的,绘画的
      * n:图表,图形
+     * graphic designer 平面设计师
      */
     private String graphic;
     /**
@@ -54,7 +55,7 @@ public class WordsUnit3 {
      */
     private String parallel;
     /**
-     * n:似非而是的谐语,悖论,矛盾的人(事物,情况)
+     * n:似非而是的论点,悖论,矛盾的人(事物,情况)
      * face the paradox面对矛盾
      */
     private String paradox;
@@ -70,12 +71,16 @@ public class WordsUnit3 {
      */
     private String paralysis;
     /**
-     * n:片面,部分,地区,部门,截面,阶层
-     * cross section 横截面,典型的一群人(或事物)
+     * n:片面,部分,地区,部门,截面,阶层(典型的一群人或事物),章节
+     * v:被切割成片,被分成部分
+     * v:把...分段,将...切片,对...进行划分
+     * cross section 横截面,
+     * cesarean section 刨宫产
      */
     private String section;
     /**
-     * n:部分,部门,行业,军事管制区
+     * n:部分,部门,扇形,扇区,行业,军事管制区
+     * v:把...分成扇形
      * private sector私营部门
      * state sector国有部门
      * public sector公共部门

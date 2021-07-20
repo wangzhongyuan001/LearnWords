@@ -49,6 +49,7 @@ public enum WordsEnum3 {
     WORDS_ENUM_41("mute","adj:哑的,缄默的,无声的 n:哑巴,静音器 v:减轻(声音),抑制(情感),减弱"),
     WORDS_ENUM_42("reduce","v:减少,简化"),
     WORDS_ENUM_43("reduction","n:减少,降低"),
+    WORDS_ENUM_44("graphic designer","平面设计师"),
     ;
     private String word;
     private String mean;
