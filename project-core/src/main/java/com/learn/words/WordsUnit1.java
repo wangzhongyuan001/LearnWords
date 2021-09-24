@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 public class WordsUnit1 {
     /**
-     * n:工作(量),工作地点,产品,著作
+     * n:工作(量),工作地点,职业,产品,著作
      * v:(使)工作,有效,产生...作用
      * work against 极力反对,阻碍
      * work on 致力于,从事于
