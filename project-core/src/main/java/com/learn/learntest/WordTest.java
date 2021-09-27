@@ -1,7 +1,7 @@
 package com.learn.learntest;
 
 
-import com.learn.wordsEnum.WordsEnum1;
+import com.learn.wordsEnum.WordsEnum3;
 
 import java.util.*;
 
@@ -12,19 +12,19 @@ import java.util.*;
  */
 public class WordTest {
     public static void main(String[] args) {
-        WordsEnum1[] values = WordsEnum1.values();
-        List<WordsEnum1> enum1List = Arrays.asList(values);
+        WordsEnum3[] values = WordsEnum3.values();
+        List<WordsEnum3> enum1List = Arrays.asList(values);
         Collections.shuffle(enum1List);
-        Map<WordsEnum1,Integer> unKnowMap = new LinkedHashMap<>();
-        for (WordsEnum1 wordsEnum : enum1List) {
-            System.out.println("请根据提示,输入对应的单词或词组:    "+wordsEnum.getMean());
+        Map<WordsEnum3, Integer> unKnowMap = new LinkedHashMap<>();
+        for (WordsEnum3 wordsEnum : enum1List) {
+            System.out.println("请根据提示,输入对应的单词或词组:    " + wordsEnum.getMean());
             Scanner scanner = new Scanner(System.in);
             String word = scanner.nextLine();
             if (wordsEnum.getWord().equals(word)) {
                 System.out.println("回答正确!");
-            }else {
-                System.out.println("回答错误,正确答案为:  "+wordsEnum.getWord());
-                unKnowMap.put(wordsEnum,2);
+            } else {
+                System.out.println("回答错误,正确答案为:  " + wordsEnum.getWord());
+                unKnowMap.put(wordsEnum, 1);
             }
         }
 
@@ -34,33 +34,37 @@ public class WordTest {
                 System.out.println("恭喜,已掌握所有单词!");
                 return;
             }
-            Set<Map.Entry<WordsEnum1, Integer>> entrySet = unKnowMap.entrySet();
-            System.out.println("剩余未掌握单词量:"+entrySet.size());
-            for (Map.Entry<WordsEnum1, Integer> entry : entrySet) {
+            Set<Map.Entry<WordsEnum3, Integer>> entrySet = unKnowMap.entrySet();
+            long count = entrySet.stream().filter(wordsEnum3IntegerEntry -> wordsEnum3IntegerEntry.getValue() <= 0).count();
+            System.out.println("剩余未掌握单词量:" + count);
+            for (Map.Entry<WordsEnum3, Integer> entry : entrySet) {
+                if (entry.getValue() == 0) {
+                    continue;
+                }
 
-                System.out.println("请根据提示,输入对应的单词或词组:    "+entry.getKey().getMean());
+                System.out.println("请根据提示,输入对应的单词或词组:    " + entry.getKey().getMean());
                 Scanner scanner = new Scanner(System.in);
                 String word = scanner.nextLine();
-                if (entry.getValue() == 0 || "skip".equals(word)) {
-                    unKnowMap.put(entry.getKey(),0);
+                if ("skip".equals(word)) {
+                    unKnowMap.put(entry.getKey(), 0);
                     continue;
                 }
 
                 if (entry.getKey().getWord().equals(word)) {
                     System.out.println("回答正确!");
-                    unKnowMap.put(entry.getKey(),entry.getValue()-1);
-                }else {
-                    System.out.println("回答错误,正确答案为:  "+entry.getKey().getWord());
+                    unKnowMap.put(entry.getKey(), entry.getValue() - 1);
+                } else {
+                    System.out.println("回答错误,正确答案为:  " + entry.getKey().getWord());
                 }
             }
 
         }
     }
 
-    private static boolean isAllEmpty(Map<WordsEnum1, Integer> unKnowMap) {
-        Set<WordsEnum1> keySet = unKnowMap.keySet();
-        for (WordsEnum1 wordsEnum1 : keySet) {
-            if (unKnowMap.get(wordsEnum1) != 0) {
+    private static boolean isAllEmpty(Map<WordsEnum3, Integer> unKnowMap) {
+        Set<WordsEnum3> keySet = unKnowMap.keySet();
+        for (WordsEnum3 wordsEnum : keySet) {
+            if (unKnowMap.get(wordsEnum) != 0) {
                 return false;
             }
         }
