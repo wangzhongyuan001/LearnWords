@@ -1,7 +1,7 @@
 package com.learn.learntest;
 
 
-import com.learn.wordsEnum.WordsEnum3;
+import com.learn.wordsEnum.WordsEnum4;
 
 import java.util.*;
 
@@ -12,11 +12,11 @@ import java.util.*;
  */
 public class WordTest {
     public static void main(String[] args) {
-        WordsEnum3[] values = WordsEnum3.values();
-        List<WordsEnum3> enum1List = Arrays.asList(values);
+        WordsEnum4[] values = WordsEnum4.values();
+        List<WordsEnum4> enum1List = Arrays.asList(values);
         Collections.shuffle(enum1List);
-        Map<WordsEnum3, Integer> unKnowMap = new LinkedHashMap<>();
-        for (WordsEnum3 wordsEnum : enum1List) {
+        Map<WordsEnum4, Integer> unKnowMap = new LinkedHashMap<>();
+        for (WordsEnum4 wordsEnum : enum1List) {
             System.out.println("请根据提示,输入对应的单词或词组:    " + wordsEnum.getMean());
             Scanner scanner = new Scanner(System.in);
             String word = scanner.nextLine();
@@ -34,10 +34,10 @@ public class WordTest {
                 System.out.println("恭喜,已掌握所有单词!");
                 return;
             }
-            Set<Map.Entry<WordsEnum3, Integer>> entrySet = unKnowMap.entrySet();
-            long count = entrySet.stream().filter(wordsEnum3IntegerEntry -> wordsEnum3IntegerEntry.getValue() <= 0).count();
+            Set<Map.Entry<WordsEnum4, Integer>> entrySet = unKnowMap.entrySet();
+            long count = entrySet.stream().filter(entry -> entry.getValue() > 0).count();
             System.out.println("剩余未掌握单词量:" + count);
-            for (Map.Entry<WordsEnum3, Integer> entry : entrySet) {
+            for (Map.Entry<WordsEnum4, Integer> entry : entrySet) {
                 if (entry.getValue() == 0) {
                     continue;
                 }
@@ -61,10 +61,10 @@ public class WordTest {
         }
     }
 
-    private static boolean isAllEmpty(Map<WordsEnum3, Integer> unKnowMap) {
-        Set<WordsEnum3> keySet = unKnowMap.keySet();
-        for (WordsEnum3 wordsEnum : keySet) {
-            if (unKnowMap.get(wordsEnum) != 0) {
+    private static boolean isAllEmpty(Map<WordsEnum4, Integer> unKnowMap) {
+        Set<WordsEnum4> keySet = unKnowMap.keySet();
+        for (WordsEnum4 wordsEnum : keySet) {
+            if (unKnowMap.get(wordsEnum) <= 0) {
                 return false;
             }
         }

@@ -40,7 +40,6 @@ public enum WordsEnum4 {
     WORDS_ENUM_31("uneconomic","adj:非经济的"),
     WORDS_ENUM_32("socio-economic","社会经济的,社会经济学的"),
     WORDS_ENUM_33("socio-economic status","社会经济地位"),
-    WORDS_ENUM_34("sheer difficulty","极大的苦难"),
     WORDS_ENUM_35("economics","n:经济学,经济状况"),
     WORDS_ENUM_36("basic economics","基础经济学"),
     WORDS_ENUM_37("family economics","家庭经济状况"),
