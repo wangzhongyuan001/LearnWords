@@ -18,9 +18,11 @@ public class BaseWord {
             Field[] fields = clazz.getDeclaredFields();
             for (Field f : fields) {
                 WordMean annotation = f.getAnnotation(WordMean.class);
-                String word = annotation.word();
-                String desc = annotation.desc();
-                wordMap.put(word,desc);
+                if (null != annotation) {
+                    String word = annotation.word();
+                    String desc = annotation.desc();
+                    wordMap.put(word,desc);
+                }
             }
             clazz = clazz.getSuperclass();
         } while (clazz != Object.class);
