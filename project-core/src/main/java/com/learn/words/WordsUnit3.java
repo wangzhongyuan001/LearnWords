@@ -7,7 +7,7 @@ import com.learn.annotation.WordMean;
  * @version 1.0
  * @date 2021/7/19
  */
-public class WordsUnit3 {
+public class WordsUnit3 extends BaseWord{
     @WordMean(word = "direction",desc = "n:方向,说明")
     private String word1;
     @WordMean(word = "direct",desc = "adj:径直的,直接的;adv:径直地,直接地")
