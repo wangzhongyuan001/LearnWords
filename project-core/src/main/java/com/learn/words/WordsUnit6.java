@@ -34,7 +34,7 @@ public class WordsUnit6 extends BaseWord{
     private String word12;
     @WordMean(word = "the earned income tax credit",desc = "收入个人所得税")
     private String word13;
-    @WordMean(word = "faith",desc = "n:信任,相信")
+    @WordMean(word = "faith",desc = "n:信任,相信,信念；宗教；宗教信仰；忠诚")
     private String word14;
     @WordMean(word = "faithful",desc = "adj:忠诚的,可信任的")
     private String word15;
@@ -66,7 +66,7 @@ public class WordsUnit6 extends BaseWord{
     private String word28;
     @WordMean(word = "preserve",desc = "v:保护,维护,保存,保鲜 n:独占的地区(或领域/活动范围)")
     private String word29;
-    @WordMean(word = "reserve",desc = "n:保留,储备(量),储备金,矜持,拘谨 v:保留,储备,预定")
+    @WordMean(word = "reserve",desc = "n:预定,保留,储备(量),储备金,矜持,拘谨 v:保留,储备,预定")
     private String word30;
     @WordMean(word = "reserved",desc = "adj:矜持的,预定的")
     private String word31;
