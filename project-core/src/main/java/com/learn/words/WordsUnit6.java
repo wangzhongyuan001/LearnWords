@@ -84,8 +84,6 @@ public class WordsUnit6 extends BaseWord{
     private String word37;
     @WordMean(word = "as first glance",desc = "乍一看")
     private String word38;
-    @WordMean(word = "a wistful glance",desc = "伤感的一瞥")
-    private String word39;
     @WordMean(word = "glimpse",desc = "n:一瞥;v:瞥见")
     private String word40;
     @WordMean(word = "gaze",desc = "n/v:凝视")
