@@ -58,7 +58,11 @@ public class WordsUnit8 extends BaseWord{
     private String word24;
     @WordMean(word = "industry",desc = "n. 工业；产业；行业；企业；勤奋")
     private String word25;
-    @WordMean(word = "diligent",desc = "adj. 勤奋的，勤勉的")
+    @WordMean(word = "industrial",desc = "adj. 工业的；产业的；行业的")
     private String word26;
+    @WordMean(word = "the Industrial Revolution",desc = "工业革命")
+    private String word27;
+    @WordMean(word = "diligent",desc = "adj. 勤奋的，勤勉的")
+    private String word30;
 
 }
