@@ -38,75 +38,56 @@ public class WordsUnit9 extends BaseWord{
     private String word14;
     @WordMean(word = "multinational",desc = "adj. 多国的； 跨国的 n. 跨国公司")
     private String word15;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "nation",desc = "n. 民族；国家")
     private String word16;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "native",desc = "adj. 本地出生的，本国的；土生土长的 n. 本地人，本国人")
     private String word17;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "naive",desc = "adj. 天真的，幼稚的")
     private String word18;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "political",desc = "adj. 政治的")
     private String word19;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "policy",desc = "n. 政策，方针")
     private String word20;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "stress",desc = "n. 压力；强调；【物】应力；重音，重读 v. 强调，着重；使焦虑不安；重读")
     private String word21;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "distress",desc = "n. (精神上的)苦恼；危难 v. 使苦恼")
     private String word22;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "emphasize",desc = "v.强调")
     private String word23;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "view",desc = "n. 景色；(理解或思维的)方式；风景画； 看，观看；观点；视野 v. 看待；看，观看；查看，审视")
     private String word24;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "view sth in this light",desc = "从这个角度看待某事物")
     private String word25;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "review",desc = "v. 回顾；复习；检查；复审；写评论 n. 回顾；复习；评论；评审；审查")
     private String word26;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "reviewer",desc = "n. 评论家；审查者")
     private String word27;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "interview",desc = "v. 采访；面试；接见；对…进行面谈 n. 接见，会见；采访；面试")
     private String word28;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "interviewer",desc = "n. 采访者；面试官")
     private String word29;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "emphasis",desc = "n. 强调，重视")
     private String word30;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "perspective",desc = "n. (观察问题的)视角；观点，看法；远景，景观")
     private String word31;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "require",desc = "v. 需要；要求；规定")
     private String word32;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "requirement",desc = "n. 需要；需要的东西；要求")
     private String word33;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "acquire",desc = "v. 取得，获得；学到")
     private String word34;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "acquisition",desc = "n. 获得；获得物")
     private String word35;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "enquire",desc = "v.询问，打听；调查，查究")
     private String word36;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "enquiry",desc = "n.询问，打听；调查，查究")
     private String word37;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "around",desc = "adv. 到处；在周围；向四周；大约；存在着；围绕 prep. 围绕；在…四周，在…各处")
     private String word38;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "round",desc = "adj. 圆形的，圆的；球形的 prep. 围绕；在…附近 adv. 围绕；在周围 v. 绕行；使成圆形 n. 回合；绕圈；阶段；轮次")
     private String word39;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "round/around the corner",desc = "在附近,即将发生")
     private String word40;
-    @WordMean(word = "",desc = "")
+    @WordMean(word = "roundabout",desc = "adj. 迂回的，拐弯抹角的n. 环形交叉口")
     private String word41;
-    @WordMean(word = "",desc = "")
-    private String word42;
-    @WordMean(word = "",desc = "")
-    private String word43;
-    @WordMean(word = "",desc = "")
-    private String word44;
-    @WordMean(word = "",desc = "")
-    private String word45;
-    @WordMean(word = "",desc = "")
-    private String word46;
-    @WordMean(word = "",desc = "")
-    private String word47;
-    @WordMean(word = "",desc = "")
-    private String word48;
-    @WordMean(word = "",desc = "")
-    private String word49;
-    @WordMean(word = "",desc = "")
-    private String word50;
-
 }
