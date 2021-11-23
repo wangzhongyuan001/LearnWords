@@ -22,8 +22,12 @@ public class WordsUnit9 extends BaseWord{
     private String word6;
     @WordMean(word = "exclusively",desc = "adv. 专有地；排外地")
     private String word7;
+    @WordMean(word = "purely and exclusively",desc = "完完全全")
+    private String word71;
     @WordMean(word = "conclude",desc = "v. 结束；推断出，断定，作出结论；缔结，议定")
     private String word8;
+    @WordMean(word = "come to/draw a conclusion",desc = "v. 结束；推断出，断定，作出结论；缔结，议定")
+    private String word81;
     @WordMean(word = "conclusion",desc = "n. 结尾；结论；推论")
     private String word9;
     @WordMean(word = "inconclusive",desc = "adj. 非决定性的；不确定的")
@@ -46,6 +50,8 @@ public class WordsUnit9 extends BaseWord{
     private String word18;
     @WordMean(word = "political",desc = "adj. 政治的")
     private String word19;
+    @WordMean(word = "politics",desc = "n. 政治；政治学；政治主张；政治见解")
+    private String word191;
     @WordMean(word = "policy",desc = "n. 政策，方针")
     private String word20;
     @WordMean(word = "stress",desc = "n. 压力；强调；【物】应力；重音，重读 v. 强调，着重；使焦虑不安；重读")
