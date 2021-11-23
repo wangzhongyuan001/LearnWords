@@ -7,36 +7,36 @@ import com.learn.annotation.WordMean;
  * @version 1.0
  * @date 2021/9/28
  */
-public class WordsUnit9 extends BaseWord{
-    @WordMean(word = "include",desc = "v. 包括；把…列为一部分")
+public class WordsUnit12 extends BaseWord{
+    @WordMean(word = "",desc = "")
     private String word1;
-    @WordMean(word = "inclusive",desc = "adj. 包括的；包容广阔的")
+    @WordMean(word = "",desc = "")
     private String word2;
-    @WordMean(word = "exclude",desc = "v. 拒绝接纳； 将…排除在外")
+    @WordMean(word = "",desc = "")
     private String word3;
-    @WordMean(word = "exclusion",desc = "n. 排除，除外")
+    @WordMean(word = "",desc = "")
     private String word4;
-    @WordMean(word = "exclusionary",desc = "adj. 排除在外的")
+    @WordMean(word = "",desc = "")
     private String word5;
-    @WordMean(word = "exclusive",desc = "adj. 专用的，专有的；排外的；高档的")
+    @WordMean(word = "",desc = "")
     private String word6;
-    @WordMean(word = "exclusively",desc = "adv. 专有地；排外地")
+    @WordMean(word = "",desc = "")
     private String word7;
-    @WordMean(word = "conclude",desc = "v. 结束；推断出，断定，作出结论；缔结，议定")
+    @WordMean(word = "",desc = "")
     private String word8;
-    @WordMean(word = "conclusion",desc = "n. 结尾；结论；推论")
+    @WordMean(word = "",desc = "")
     private String word9;
-    @WordMean(word = "inconclusive",desc = "adj. 非决定性的；不确定的")
+    @WordMean(word = "",desc = "")
     private String word10;
-    @WordMean(word = "national",desc = "adj. 民族的；国家的，国立的；全国性的；国民的")
+    @WordMean(word = "",desc = "")
     private String word11;
-    @WordMean(word = "nationally",desc = "adv. 全国性地，全民地")
+    @WordMean(word = "",desc = "")
     private String word12;
-    @WordMean(word = "internationally",desc = "adv. 世界地，国际性地")
+    @WordMean(word = "",desc = "")
     private String word13;
-    @WordMean(word = "domestically",desc = "adv. 国内地；家庭式地；适合国内地")
+    @WordMean(word = "",desc = "")
     private String word14;
-    @WordMean(word = "multinational",desc = "adj. 多国的； 跨国的 n. 跨国公司")
+    @WordMean(word = "",desc = "")
     private String word15;
     @WordMean(word = "",desc = "")
     private String word16;
