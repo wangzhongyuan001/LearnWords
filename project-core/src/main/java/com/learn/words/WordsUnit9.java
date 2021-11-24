@@ -26,7 +26,7 @@ public class WordsUnit9 extends BaseWord{
     private String word71;
     @WordMean(word = "conclude",desc = "v. 结束；推断出，断定，作出结论；缔结，议定")
     private String word8;
-    @WordMean(word = "come to/draw a conclusion",desc = "v. 结束；推断出，断定，作出结论；缔结，议定")
+    @WordMean(word = "come to/draw a conclusion",desc = "得出结论")
     private String word81;
     @WordMean(word = "conclusion",desc = "n. 结尾；结论；推论")
     private String word9;
