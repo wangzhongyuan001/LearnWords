@@ -62,6 +62,8 @@ public class WordsUnit9 extends BaseWord{
     private String word23;
     @WordMean(word = "view",desc = "n. 景色；(理解或思维的)方式；风景画； 看，观看；观点；视野 v. 看待；看，观看；查看，审视")
     private String word24;
+    @WordMean(word = "landscape",desc = "n. （陆上，尤指乡村的）风景，景色；形势，情形；（陆上或乡村）风景画；横向打印格式 v. 对……做景观美化，美化……的环境；从事景观美化工作")
+    private String word242;
     @WordMean(word = "view sth in this light",desc = "从这个角度看待某事物")
     private String word25;
     @WordMean(word = "review",desc = "v. 回顾；复习；检查；复审；写评论 n. 回顾；复习；评论；评审；审查")

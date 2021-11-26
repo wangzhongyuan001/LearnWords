@@ -92,6 +92,8 @@ public class WordsUnit10 extends BaseWord{
     private String word41;
     @WordMean(word = "offer",desc = "v. 提供；出示；提议；(向神)奉上(祈祷、祭品等) n. 提议；提供；提供物")
     private String word42;
+    @WordMean(word = "offer to do sth",desc = "愿意做某事；主动提出做某事")
+    private String word421;
     @WordMean(word = "fund",desc = "n. 专款，基金；资金，现款 v. 拨款；资助")
     private String word43;
     @WordMean(word = "funding",desc = "n. 拨款")
