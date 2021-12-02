@@ -14,7 +14,7 @@ public class WordsUnit12 extends BaseWord{
     private String word2;
     @WordMean(word = "decide on",desc = "决定")
     private String word3;
-    @WordMean(word = "decisive",desc = "adj. 决定性的")
+    @WordMean(word = "decisive",desc = "adj. 决定性的,果断的")
     private String word4;
     @WordMean(word = "common",desc = "adj. 普通的；共同的；常见的")
     private String word5;
@@ -34,7 +34,7 @@ public class WordsUnit12 extends BaseWord{
     private String word12;
     @WordMean(word = "press forward",desc = "加紧进行；决心继续；努力前进")
     private String word13;
-    @WordMean(word = "compress",desc = "compress")
+    @WordMean(word = "compress",desc = "v. （使）压紧，压缩；精简，浓缩；压缩（文件）；缩短（时间）n. （止血、减痛等的）敷布，压布")
     private String word14;
     @WordMean(word = "suppress",desc = "v. 镇压，压制；抑制，忍住；查禁；禁止发表")
     private String word15;
