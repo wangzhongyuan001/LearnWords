@@ -105,11 +105,4 @@ public class WordsUnit11 extends BaseWord{
     private String word46;
     @WordMean(word = "textile mill",desc = "纺织厂")
     private String word47;
-    @WordMean(word = "",desc = "")
-    private String word48;
-    @WordMean(word = "",desc = "")
-    private String word49;
-    @WordMean(word = "",desc = "")
-    private String word50;
-
 }
