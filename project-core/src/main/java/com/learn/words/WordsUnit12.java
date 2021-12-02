@@ -106,7 +106,7 @@ public class WordsUnit12 extends BaseWord{
     private String word48;
     @WordMean(word = "technician",desc = "n. 技术员，技师；能人")
     private String word49;
-    @WordMean(word = "technique",desc = "technique")
+    @WordMean(word = "technique",desc = "n. 技巧，工艺；（尤指体育或艺术方面的）技巧，技术")
     private String word50;
 
 }
