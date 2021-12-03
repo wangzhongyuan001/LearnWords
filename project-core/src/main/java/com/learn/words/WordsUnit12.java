@@ -94,7 +94,7 @@ public class WordsUnit12 extends BaseWord{
     private String word42;
     @WordMean(word = "assignment",desc = "n. 分配，指派；(分派的)任务；(指定的)作业")
     private String word43;
-    @WordMean(word = "endorse",desc = "v. 赞同；支持；宣 传；在背面签名")
+    @WordMean(word = "endorse",desc = "v. （公开）赞同，认可；（在广告中对某种产品）宣传，吹捧；（尤指在支票背面）签名，背书；(在驾驶执照上)记录违章事项")
     private String word44;
     @WordMean(word = "technology",desc = "n. (tech)工 艺(学)；技术；工业技术；科技")
     private String word45;
